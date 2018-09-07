@@ -56,6 +56,7 @@ GEM
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
+    csv (3.0.0)
     dotenv (2.5.0)
     dotenv-rails (2.5.0)
       dotenv (= 2.5.0)
@@ -192,6 +193,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootsnap
   bootstrap-sass (~> 3.3)
+  csv
   dotenv-rails
   font-awesome-sass (~> 5.0.9)
   jbuilder (~> 2.0)
