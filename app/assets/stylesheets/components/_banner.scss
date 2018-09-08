@@ -1,0 +1,31 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: image-url("backgroung-image-banner.jpg"), linear-gradient(-225deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 40%);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: black;
+}
+
+.banner-content{
+  padding: 50px;
+  p {
+    font-size: calc(18px + 2vw);
+  };
+  h1{
+    font-size: calc(20px + 5vw);
+  }
+}
+
+.home-banner {
+  background-image: url('TODO: A picture URL from unsplash.com!');
+  background-size: cover;
+  height: 50vh;
+  color: #black;
+  text-align: center;
+  padding-top: 40vh;
+}
