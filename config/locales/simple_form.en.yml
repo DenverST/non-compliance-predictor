@@ -10,6 +10,22 @@ en:
       # html: '<abbr title="required">*</abbr>'
     error_notification:
       default_message: "Please review the problems below:"
+
+    placeholders:
+      debtor:
+        unique_id: 'unique ID'
+        year: 'year'
+        area: 'area'
+        sex: 'sex'
+        family: 'family'
+        occupation: 'occupation'
+        cause: 'cause'
+        income: 'income'
+        income_source: 'income source'
+        unsecured_debts: 'unsecured debts'
+        value_of_assets: 'value of assets'
+        non_compliance_type: 'non compliance type'
+
     # Examples
     # labels:
     #   defaults:
