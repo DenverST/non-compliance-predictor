@@ -29,6 +29,6 @@ require 'csv'
 csv_text = File.read(Rails.root.join('db', 'testing.csv'))
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
-  @debtor = Debtor.new(unique_id: row['Unique ID'], year: row['Calendar Year of Insolvency'], area: row['SA3 of Debtor'], sex: row['Sex of Debtor'], family: row['Family Situation'], occupation: row['Debtor Occupation Name (ANZSCO)'], cause: row['Main Cause of Insolvency'], income: row['Debtor Income'], income_source: row['Primary Income Source'], unsecured_debts: row['Unsecured Debts'], value_of_assets: row['Value of Assets'], non_compliance_type: row['Non-Compliance Type'])
+  @debtor = Debtor.new(unique_id: row['Unique ID'], year: row['Calendar Year of Insolvency'], area: row['SA3 of Debtor'], sex: row['Sex of Debtor'], family: row['Family Situation'], occupation: row['Debtor Occupation Name (ANZSCO)'], cause: row['Main Cause of Insolvency'], income: row['Debtor Income'], income_source: row['Primary Income Source'], unsecured_debts: row['Unsecured Debts'], value_of_assets: row['Value of Assets'], non_compliance_type: row['Non-Compliance Type'], business: row['Business Related Insolvency'], num_instances: row['Number of Instances'])
   @debtor.save!
 end

@@ -62,11 +62,12 @@
 
 .risky {
   display: flex;
+  height: 50vh;
 }
 
 .at-risk {
-  width: 50%;
-  height: 50vh;
+  padding: 10px;
+  width: 45%;
 }
 
 .at-risk-header {
@@ -89,4 +90,14 @@ li {
   padding: 2px;
   background-color: lightpink;
   border-radius: 2%;
+}
+
+.visual {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  width: 40%;
+  height: 350px;
+  background-image: url("https://www.afsa.gov.au/sites/g/files/net1601/f/jq18_quarterly_personal_insolvency_activity_in_australia.png");
+  background-size: cover;
 }
