@@ -2,11 +2,13 @@ h1 {
   text-align: center;
 }
 
-.big-div-wrap {
+.from-container {
   text-align: center;
+  align-item:center;
+  padding-bottom: 50px;
 }
 
-.form-wrap {
+.form-wrap-grey {
   display: inline-block;
   width: 60%;
   background-color: lightgrey;
@@ -14,5 +16,9 @@ h1 {
 }
 
 .form {
+  padding: 20px;
+}
+
+.form-button {
   padding: 20px;
 }
