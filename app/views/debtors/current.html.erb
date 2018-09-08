@@ -1,0 +1,14 @@
+
+
+<ul>
+  <% @current_debtors.each do |debtor| %>
+  <li>
+    <%= debtor.unique_id %>
+    <%= debtor.sex %>
+    <%= debtor.year %>
+    <%= debtor.area %>
+  </li>
+  <% end  %>
+</ul>
+
+<%= link_to "Home", root_path %>
