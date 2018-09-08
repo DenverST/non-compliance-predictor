@@ -9,13 +9,23 @@ def show
 end
 
 def current
-  # @current_debtors = Debtor.where("?".to_i > 600, :score)
+  @this_year_total_sum = 0
+  @this_year_total_count = 0
+  @all_time_total_sum = 0
+  @all_time_total_count = Debtor.all.count
   @current_debtors = []
   Debtor.all.each do |debtor|
+    @all_time_total_sum += debtor.score
+    if debtor.year.to_i > 2017
+      @this_year_total_sum += debtor.score
+      @this_year_total_count += 1
+    end
     if (debtor.score > 600) && (debtor.year.to_i > 2016)
       @current_debtors << debtor
     end
   end
+  @all_time_rating = (@all_time_total_sum / @all_time_total_count).to_f
+  @this_year_rating = (@this_year_total_sum / @this_year_total_count).to_f
   @current_debtors
 end
 
