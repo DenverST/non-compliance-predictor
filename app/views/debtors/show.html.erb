@@ -12,3 +12,6 @@
   <li> <%= @debtor.value_of_assets rescue null %> </li>
   <li> <%= @debtor.non_compliance_type rescue null %> </li>
 </ul>
+
+<h3> Your Score </h3>
+<%= @debtor.score %>
