@@ -7,15 +7,6 @@
   <div class="row">
     <div class="form-wrap-grey">
         <%= simple_form_for(@debtor) do |f| %>
-        <% if @debtor.errors.any? %>
-          <div class="errors-container">
-            <ul>
-              <% @debtor.errors.full_messages.each do |message| %>
-                <li><%= message %></li>
-              <% end %>
-            </ul>
-          </div>
-        <% end %>
           <%= f.input :unique_id, label:false %>
           <%= f.input :year, label:false %>
           <%= f.input :area, label:false %>
