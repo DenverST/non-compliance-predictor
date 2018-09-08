@@ -15,7 +15,7 @@ end
 def create
   @debtor = Debtor.new(debtor_params)
   if @debtor.save!
-    redirect_to
+    redirect_to debtor_path(@debtor)
   else
     render :new
   end
