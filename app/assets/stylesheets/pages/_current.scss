@@ -1,0 +1,88 @@
+
+.header {
+  text-align: center;
+  padding: 30px;
+}
+
+.dash-wrapper {
+  width: 100%;
+  height: 20vh;
+  background-color: rgba(240, 240, 240, .8);
+  display: flex;
+  justify-content: space-around;
+}
+
+.dash {
+  width: 60%;
+  height: 15vh;
+  background-color: rgba(240, 240, 240, .6);
+  display: flex;
+  vertical-align: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.all_time_rating {
+  height: 75%;
+  width: 20%;
+  background-color: pink;
+  border-radius: 5%;
+  text-align: center;
+  vertical-align: center
+}
+
+.at_risk_count {
+  height: 75%;
+  width: 20%;
+  background-color: lightyellow;
+  border-radius: 5%;
+}
+
+.this_year_rating {
+  height: 75%;
+  width: 20%;
+  background-color: lightblue;
+  border-radius: 5%;
+}
+
+.this_year_total {
+  height: 75%;
+  width: 20%;
+  background-color: lightgreen;
+  border-radius: 5%;
+}
+
+#dash {
+  font-size: 20px;
+}
+
+.risky {
+  display: flex;
+}
+
+.at-risk {
+  width: 50%;
+  height: 50vh;
+}
+
+.at-risk-header {
+  background-color: red;
+  text-align: center;
+}
+
+// .risk-card {
+//   padding: 2px;
+//   background-color: lightpink;
+//   border-radius: 2%;
+// }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 2px;
+  padding: 2px;
+  background-color: lightpink;
+  border-radius: 2%;
+}

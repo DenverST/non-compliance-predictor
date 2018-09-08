@@ -1,14 +1,56 @@
 
+<div class="header">
+  <h1>
+    ASFA: Non-Compliance Solving
+  </h1>
+  <%= link_to "New Insolvency Case", new_debtor_path, :class => "btn btn-danger" %>
+</div>
 
-<ul>
-  <% @current_debtors.each do |debtor| %>
-  <li>
-    <%= debtor.unique_id %>
-    <%= debtor.sex %>
-    <%= debtor.year %>
-    <%= debtor.area %>
-  </li>
-  <% end  %>
-</ul>
+<div class="dash-wrapper">
+  <div class="dash">
+    <div class="this_year_total">
+      <h3 id="dash"> 2018 Insolvencies </h3>
+      <strong><%= @this_year_total_count %> </strong>
+    </div>
+    <div class="this_year_rating">
+      <h3 id="dash"> 2018 Average Rating </h3>
+      <strong><%= @this_year_rating %> </strong>
+    </div>
+    <div class="at_risk_count">
+      <h3 id="dash"> Currently At Risk </h3>
+      <strong> <%= @current_debtors.count %> </strong>
+    </div>
+    <div class="all_time_rating">
+      <h3 id="dash"> All Time Average </h3>
+      <strong><%= @all_time_rating %> </strong>
+    </div>
+  </div>
+</div>
 
-<%= link_to "Home", root_path %>
+<div class="risky">
+
+  <div class="at-risk">
+    <div class="at-risk-header">
+      <h4>Currently At Risk</h4>
+    </div>
+    <ul>
+      <% @current_debtors.each do |debtor| %>
+      <li>
+        <div class="risk-card">
+          <%= debtor.unique_id %>
+          <%= debtor.sex %>
+          <%= debtor.year %>
+          <%= debtor.area %>
+          <%= debtor.score %>
+        </div>
+      </li>
+      <% end  %>
+    </ul>
+  </div>
+
+  <div class="visual">
+
+  </div>
+
+</div>
+
