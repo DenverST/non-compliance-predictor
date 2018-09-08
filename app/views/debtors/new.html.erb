@@ -1,5 +1,7 @@
 
-<h1>Enter New Insolvent Individual</h1>
+<div class="header">
+  <h1>Enter New Insolvent Individual</h1>
+</div>
 
 <div class="big-div-wrap">
   <div class="form-wrap">
@@ -14,18 +16,18 @@
           </ul>
         </div>
       <% end %>
-        <%= f.input :unique_id %>
-        <%= f.input :year %>
-        <%= f.input :area %>
-        <%= f.input :sex %>
-        <%= f.input :family %>
-        <%= f.input :occupation %>
-        <%= f.input :cause %>
-        <%= f.input :income %>
-        <%= f.input :income_source %>
-        <%= f.input :unsecured_debts %>
-        <%= f.input :value_of_assets %>
-        <%= f.input :non_compliance_type %>
+        <%= f.input :unique_id, label:false %>
+        <%= f.input :year, label:false %>
+        <%= f.input :area, label:false %>
+        <%= f.input :sex, label:false %>
+        <%= f.input :family, label:false  %>
+        <%= f.input :occupation, label:false  %>
+        <%= f.input :cause, label:false  %>
+        <%= f.input :income, label:false  %>
+        <%= f.input :income_source, label:false  %>
+        <%= f.input :unsecured_debts, label:false  %>
+        <%= f.input :value_of_assets, label:false  %>
+        <%= f.input :non_compliance_type, label:false  %>
         <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
       <% end %>
     </div>
