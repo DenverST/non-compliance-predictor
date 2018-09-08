@@ -8,6 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-wagon-white {
+  background-color: white;
 }
 
 /* Logo */
@@ -39,6 +45,8 @@
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
+  align-items: left;
+    margin-right: 70%;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
