@@ -7,9 +7,9 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: transparent;
   transition: 0.5s background-color ease;
+  text-decoration: none;
 }
 
 .navbar-wagon-white {
@@ -42,13 +42,13 @@
 }
 
 /* Navbar link */
-.navbar-wagon-link {
+.navbar-wagon-link h1{
   color: #616668;
+  text-decoration: none;
   font-size: 14px;
-  align-items: left;
-    margin-right: 70%;
+  margin-right: 70%;
 }
-.navbar-wagon-link:hover {
+.navbar-wagon-link:hover h1{
   color: #da552f;
   text-decoration: none;
 }
