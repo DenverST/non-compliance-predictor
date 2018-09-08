@@ -1,26 +1,34 @@
+
 <h1>Enter New Insolvent Individual</h1>
 
-<%= simple_form_for(@debtor) do |f| %>
-<% if @debtor.errors.any? %>
-  <div class="errors-container">
-    <ul>
-      <% @debtor.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
+<div class="big-div-wrap">
+  <div class="form-wrap">
+    <div class="from">
+      <%= simple_form_for(@debtor) do |f| %>
+      <% if @debtor.errors.any? %>
+        <div class="errors-container">
+          <ul>
+            <% @debtor.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
       <% end %>
-    </ul>
+        <%= f.input :unique_id %>
+        <%= f.input :year %>
+        <%= f.input :area %>
+        <%= f.input :sex %>
+        <%= f.input :family %>
+        <%= f.input :occupation %>
+        <%= f.input :cause %>
+        <%= f.input :income %>
+        <%= f.input :income_source %>
+        <%= f.input :unsecured_debts %>
+        <%= f.input :value_of_assets %>
+        <%= f.input :non_compliance_type %>
+        <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
+      <% end %>
+    </div>
   </div>
-<% end %>
-  <%= f.input :unique_id %>
-  <%= f.input :year %>
-  <%= f.input :area %>
-  <%= f.input :sex %>
-  <%= f.input :family %>
-  <%= f.input :occupation %>
-  <%= f.input :cause %>
-  <%= f.input :income %>
-  <%= f.input :income_source %>
-  <%= f.input :unsecured_debts %>
-  <%= f.input :value_of_assets %>
-  <%= f.input :non_compliance_type %>
-  <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
-<% end %>
+</div>
+
