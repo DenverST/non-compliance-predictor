@@ -1,4 +1,9 @@
 class DebtorsController < ApplicationController
+  require 'pycall/import'
+  include PyCall::Import
+  pyfrom :sklearn, import: :datasets
+  pyfrom :sklearn, import: :svm
+  pyfrom :'sklearn.model_selection', import: :train_test_split
 
 def index
   @debtors = Debtor.all
@@ -40,6 +45,10 @@ def create
   else
     render :new
   end
+end
+
+def predict
+
 end
 
 
