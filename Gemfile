@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
+gem 'cloudinary'
+
 gem 'csv'
 
 gem 'bootsnap', require: false
