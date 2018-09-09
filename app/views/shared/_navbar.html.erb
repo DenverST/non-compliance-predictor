@@ -1,87 +1,16 @@
-<div class="navbar-wagon navbar-fixed-top navbar-wagon-white">
+  <div class="navbar-wagon">
   <!-- Logo -->
-  <%= link_to current_path, class: "navbar-wagon-brand" do %>
+  <a href="/" class="navbar-wagon-brand">
     <%= image_tag "logo.png" %>
-  <% end %>
+  </a>
 
-  <div class="navbar-wagon-link">
-    <%= link_to current_path do %>
-      <h1>ASFA: Non-Compliance Solving</h1>
-    <%  end %>
-  </div>
-</div>
   <!-- Right Navigation -->
-<!-- let's comment all the user sign in -->
-<% if false %>
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <% if user_signed_in? %>
-      <!-- Links when logged in -->
-      <%= link_to "Host", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-      <%= link_to "Trips", "#", class: "navbar-wagon-item navbar-wagon-link" %>
-      <%= link_to "Messages", "#", class: "navbar-wagon-item navbar-wagon-link" %> -->
-
-      <!-- Avatar with dropdown menu -->
-      <div class="navbar-wagon-item">
-        <div class="dropdown">
-          <%= image_tag src = "https://avatars1.githubusercontent.com/u/25408202?s=40&u=19397960941285814fd1206d2a616e0c21caf0fa&v=4", class: "avatar dropdown-toggle", id: "navbar-wagon-menu", "data-toggle" => "dropdown" %>
-          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-            <li>
-              <%= link_to edit_user_registration_path do %>
-                <i class="fa fa-user"></i> <%= t(".reset password", default: "reset password") %>
-              <% end %>
-            </li>
-            <li>
-             <!--  <%= link_to "#" do %>
-                <i class="fa fa-home"></i>  <%= t(".profile", default: "Home") %>
-              <% end %> -->
-            </li>
-            <li>
-              <%= link_to destroy_user_session_path, method: :delete do %>
-                <i class="fa fa-sign-out"></i>  <%= t(".sign_out", default: "Log out") %>
-              <% end %>
-            </li>
-          </ul>
-        </div>
-      </div>
-    <% else %>
-      <!-- Login link (when logged out) -->
-      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <% end %>
-  </div>
-
-  <!-- Dropdown list appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-
-      <% if user_signed_in? %>
-
-      <!-- Avatar with dropdown menu -->
-        <div class="dropdown">
-          <%= image_tag "https://avatars1.githubusercontent.com/u/25408202?s=40&u=19397960941285814fd1206d2a616e0c21caf0fa&v=4", class: "avatar dropdown-toggle", id: "navbar-wagon-menu", "data-toggle" => "dropdown" %>
-          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-            <li>
-              <%= link_to "#" do %>
-                <i class="fa fa-user"></i> <%= t(".profile", default: "Profile") %>
-              <% end %>
-            </li>
-            <li>
-              <%= link_to destroy_user_session_path, method: :delete do %>
-                <i class="fa fa-sign-out"></i>  <%= t(".sign_out", default: "Log out") %>
-              <% end %>
-            </li>
-          </ul>
-        </div>
-      <% else %>
-        <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <!-- <li><a href="#">Some mobile link</a></li>
-          <li><a href="#">Other one</a></li> -->
-          <li><a href="#">Other one</a></li>
-        </ul>
-      <% end %>
-
-    </div>
-  </div>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Dashboard</a><i class="arrow down"></i>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Compliance Risk</a><i class="arrow down"></i>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Solvency Map</a><i class="arrow down"></i>
+    <a href="" class="navbar-wagon-item navbar-wagon-link">Client Help Page</a><i class="arrow down"></i>
 </div>
-<% end %>
+
+</div>

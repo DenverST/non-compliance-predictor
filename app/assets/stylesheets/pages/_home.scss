@@ -1,1 +1,23 @@
 // Specific CSS for your home-page
+
+.home-btn {
+  background-color: #3FDA92 !important;
+  border-color: #3FDA92;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 25px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.home-btn:hover{
+  background-color: #29C078 !important;
+  border-color: #29C078;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
