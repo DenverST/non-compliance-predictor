@@ -27,6 +27,9 @@ en:
         non_compliance_type: 'Non Compliance Type'
         business: 'Business Related Insolvecy'
         num_instances: 'Number of Insolvency Instances'
+        probability: 'Probability'
+        prediction: 'Prediction'
+
 
     # Examples
     # labels:
