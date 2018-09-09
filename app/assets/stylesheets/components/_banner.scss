@@ -8,6 +8,7 @@
   // align-items: center;
   // justify-content: center;
   position: relative;
+
   background-image: url('https://res.cloudinary.com/dhzjlnjsk/image/upload/v1536471652/insolvit.jpg');
   background-size: 100% 600px;
   background-repeat: no-repeat;
@@ -32,4 +33,23 @@
   color: #303030;
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+.banner-btn {
+  background-color: #3FDA92 !important;
+  border-color: #3FDA92;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-weight: bold;
+  padding: 15px 25px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner-btn:hover{
+  background-color: #29C078 !important;
+  border-color: #29C078;
+
 }
