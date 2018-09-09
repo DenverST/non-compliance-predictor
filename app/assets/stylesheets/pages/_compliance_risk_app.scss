@@ -13,9 +13,9 @@
 }
 
 .dashboard-container{
-  height: 400px;
+  // height: 400px;
   margin: 4%;
-  background-color: lightgrey;
+  background-color: #EFEFEF;
 }
 
 .compliance-risk-btn {
@@ -24,9 +24,10 @@
   border-radius: 5px;
   font-size: 15px;
   font-weight: bold;
-  padding: 15px 15px;
+  padding: 12px 50px 12px 50px;
+  text-align: center;
   box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  margin: 50px;
+  margin: 10px;
 }
 
 .compliance-risk-btn:hover{
@@ -48,5 +49,11 @@
   font-size: 15px;
   font-weight: bold;
   box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  align-item:center;
+
+}
+
+.result-container{
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
 }
