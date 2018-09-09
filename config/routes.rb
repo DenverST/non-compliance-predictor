@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/compliance_risk_app_2', to: 'pages#compliance_risk_maps_2'
   get '/compliance_risk_app_3', to: 'pages#compliance_risk_maps_3'
   get '/compliance_risk_app_4', to: 'pages#compliance_risk_maps_4'
+  get '/compliance_risk_app_5', to: 'pages#compliance_risk_maps_5'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
