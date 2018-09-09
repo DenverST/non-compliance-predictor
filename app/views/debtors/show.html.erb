@@ -1,20 +1,24 @@
+<div class="debtor-show">
+  <div class="row">
+    <div class="col-sm-6">
+      <h1> <%= @debtor.unique_id %></h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container-score">
+      <div class="col-sm-6">
+        <h3> Your Score </h3>
+        <%= @debtor.score %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container-home-link">
+      <%= link_to "Home", current_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
 
-<h1> <%= @debtor.unique_id %></h1>
-<ul>
-  <li> <%= @debtor.year rescue null  %> </li>
-  <li> <%= @debtor.area rescue null  %> </li>
-  <li> <%= @debtor.sex rescue null  %> </li>
-  <li> <%= @debtor.family rescue null  %> </li>
-  <li> <%= @debtor.occupation rescue null  %> </li>
-  <li> <%= @debtor.cause rescue null  %> </li>
-  <li> <%= @debtor.income rescue null  %> </li>
-  <li> <%= @debtor.income_source rescue null %> </li>
-  <li> <%= @debtor.value_of_assets rescue null %> </li>
-  <li> <%= @debtor.non_compliance_type rescue null %> </li>
-</ul>
 
-<h3> Your Score </h3>
 
-<%= @debtor.score %>
 
-<%= link_to "Home", current_path %>
