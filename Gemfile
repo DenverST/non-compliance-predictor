@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
+gem 'cloudinary'
+
 gem 'csv'
-gem 'pycall'
+
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
@@ -12,6 +14,8 @@ gem 'redis'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
+gem 'bootstrap'
+gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'sass-rails'
 gem 'simple_form'

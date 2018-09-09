@@ -1,33 +1,35 @@
 
 <div class="header">
   <h1>Enter New Insolvent Individual</h1>
-</div>
-
-<div class="from-container">
-  <div class="row">
-    <div class="form-wrap-grey">
-        <%= simple_form_for(@debtor) do |f| %>
-          <%= f.input :unique_id, label:false %>
-          <%= f.input :year, label:false %>
-          <%= f.input :area, label:false %>
-          <%= f.input :sex, label:false %>
-          <%= f.input :family, label:false  %>
-          <%= f.input :occupation, label:false  %>
-          <%= f.input :cause, label:false  %>
-          <%= f.input :income, label:false  %>
-          <%= f.input :income_source, label:false  %>
-          <%= f.input :unsecured_debts, label:false  %>
-          <%= f.input :value_of_assets, label:false  %>
-          <%= f.input :non_compliance_type, label:false  %>
-          <%= f.input :business, label:false  %>
-          <%= f.input :num_instances, label:false  %>
-    </div>
+  <div class="from-container">
     <div class="row">
-      <div class="form-button">
-        <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
+      <div class="form-wrap-grey">
+          <%= simple_form_for(@debtor) do |f| %>
+            <%= f.input :unique_id, label:false %>
+            <%= f.input :year, label:false %>
+            <%= f.input :area, label:false %>
+            <%= f.input :sex, label:false %>
+            <%= f.input :family, label:false  %>
+            <%= f.input :occupation, label:false  %>
+            <%= f.input :cause, label:false  %>
+            <%= f.input :income, label:false  %>
+            <%= f.input :income_source, label:false  %>
+            <%= f.input :unsecured_debts, label:false  %>
+            <%= f.input :value_of_assets, label:false  %>
+            <%= f.input :non_compliance_type, label:false  %>
+            <%= f.input :business, label:false  %>
+            <%= f.input :num_instances, label:false  %>
+            <%= f.input :prediction, label:false  %>
+            <%= f.input :probability, label:false  %>
       </div>
+      <div class="row">
+        <div class="form-button">
+          <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
+        </div>
+      </div>
+        <% end %>
     </div>
-      <% end %>
   </div>
 </div>
+
 

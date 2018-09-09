@@ -1,9 +1,4 @@
 class DebtorsController < ApplicationController
-  require 'pycall/import'
-  include PyCall::Import
-  pyfrom :sklearn, import: :datasets
-  pyfrom :sklearn, import: :svm
-  pyfrom :'sklearn.model_selection', import: :train_test_split
 
 def index
   @debtors = Debtor.all
@@ -55,7 +50,7 @@ end
 private
 
   def debtor_params
-    params.require(:debtor).permit(:unique_id, :year, :area, :sex, :family, :occupation, :cause, :income, :unsecured_debts, :value_of_assets, :non_compliance_type, :business, :num_instances)
+    params.require(:debtor).permit(:unique_id, :year, :area, :sex, :family, :occupation, :cause, :income, :unsecured_debts, :value_of_assets, :non_compliance_type, :business, :num_instances, :prediction, :probability)
   end
 
 end

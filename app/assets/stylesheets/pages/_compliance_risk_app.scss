@@ -1,0 +1,52 @@
+.Dashboard{
+    text-align: left;
+    margin: 50px;
+  p{
+    padding: 10px;
+    border-bottom:3px solid;
+  }
+  .active{
+    color: #3FDA92;
+    border-bottom: #3FDA92;
+
+  }
+}
+
+.dashboard-container{
+  height: 400px;
+  margin: 4%;
+  background-color: lightgrey;
+}
+
+.compliance-risk-btn {
+  background-color: #3FDA92 !important;
+  border-color: #3FDA92;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 15px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin: 50px;
+}
+
+.compliance-risk-btn:hover{
+  background-color: #29C078 !important;
+  border-color: #29C078;
+
+}
+
+.compliance-risk-app-feature {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.dropdown-btn {
+  background-color: #3FDA92 !important;
+  border-color: #3FDA92;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  align-item:center;
+}
