@@ -13,15 +13,15 @@
 <div class="wrapper">
   <div class="left">
     <div class="feature">
-      <%= image_tag "australia-map.png", class: "profile-map"%>
-      <a class="home-btn map-btn">Compliance Map</a>
+      <%= cl_image_tag("australia-map.png", {class: "profile-map"}) %>
+      <a href="/map" class="home-btn map-btn">Compliance Map</a>
     </div>
   </div>
 
   <div class="right">
     <div class="feature">
-      <%= image_tag "home_progress.png", class:"profile-progress" %>
-      <a class="home-btn progress-btn">Compliance Score</a>
+      <%= cl_image_tag("home_progress.png", {class: "profile-progress"}) %>
+      <a href="/debtors/new" class="home-btn progress-btn">Compliance Score</a>
     </div>
   </div>
 </div>
