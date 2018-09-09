@@ -1,9 +1,21 @@
 .heat-map {
   display: flex;
   width: 100%;
+  margin-top: 75px;
   justify-content: space-between;
+  
 }
 
 .map-headers {
   text-align: center;
+}
+
+.container-map {
+  display: flex;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+
 }
