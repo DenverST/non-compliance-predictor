@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # root to: 'pages#home'
+  get '/map', to: 'pages#map', as: :map
   resources :debtors
   get '/help', to: 'pages#help', as: :help
   root to: 'debtors#current', as: :current

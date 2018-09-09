@@ -7,15 +7,6 @@
   <div class="row">
     <div class="form-wrap-grey">
         <%= simple_form_for(@debtor) do |f| %>
-        <% if @debtor.errors.any? %>
-          <div class="errors-container">
-            <ul>
-              <% @debtor.errors.full_messages.each do |message| %>
-                <li><%= message %></li>
-              <% end %>
-            </ul>
-          </div>
-        <% end %>
           <%= f.input :unique_id, label:false %>
           <%= f.input :year, label:false %>
           <%= f.input :area, label:false %>
@@ -28,7 +19,8 @@
           <%= f.input :unsecured_debts, label:false  %>
           <%= f.input :value_of_assets, label:false  %>
           <%= f.input :non_compliance_type, label:false  %>
-
+          <%= f.input :business, label:false  %>
+          <%= f.input :num_instances, label:false  %>
     </div>
     <div class="row">
       <div class="form-button">

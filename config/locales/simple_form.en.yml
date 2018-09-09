@@ -13,18 +13,20 @@ en:
 
     placeholders:
       debtor:
-        unique_id: 'unique ID'
-        year: 'year'
-        area: 'area'
-        sex: 'sex'
-        family: 'family'
-        occupation: 'occupation'
-        cause: 'cause'
-        income: 'income'
-        income_source: 'income source'
-        unsecured_debts: 'unsecured debts'
-        value_of_assets: 'value of assets'
-        non_compliance_type: 'non compliance type'
+        unique_id: 'Unique ID'
+        year: 'Year'
+        area: 'Area'
+        sex: 'Sex'
+        family: 'Family'
+        occupation: 'Occupation'
+        cause: 'Cause'
+        income: 'Income'
+        income_source: 'Income Source'
+        unsecured_debts: 'Unsecured Debts'
+        value_of_assets: 'Value of Assets'
+        non_compliance_type: 'Non Compliance Type'
+        business: 'Business Related Insolvecy'
+        num_instances: 'Number of Insolvency Instances'
 
     # Examples
     # labels:
