@@ -1,0 +1,60 @@
+unique_id,year,SA3_Code,GCCSA_Code,Sex,family_situation,occupation_code,cause,business_related,income,primary_income,unsecured_debts,assets_value,noncompliance_type,num_instances,prediction,probability
+0,3452750,2010,80106,8ACTE,Female,Single with Dependants,39,Unemployment or loss of income,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.81
+1,3563908,2011,80108,8ACTE,Male,Couple without Dependants,84,Unemployment or loss of income,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,1
+2,3252673,2012,80107,8ACTE,Female,Single with Dependants,11,Ill health or absence of health insurance,No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.965
+3,3610744,2013,80107,8ACTE,Female,Couple with Dependants,99,Unemployment or loss of income,No,$0-$49999,Unknown,$0-$49999,$0-$49999,0,0,1
+4,3610734,2013,80107,8ACTE,Male,Couple with Dependants,22,Other business reason or reason unknown,Yes,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.99
+5,3631198,2014,80104,8ACTE,Male,Single without Dependants,36,Domestic discord or relationship breakdowns,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,1
+6,3648556,2015,80108,8ACTE,Female,Couple without Dependants,59,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,1
+7,3019574,2016,80105,8ACTE,Male,Single without Dependants,43,Other business reason or reason unknown,Yes,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.99
+8,3217157,2017,80107,8ACTE,Female,Couple with Dependants,14,Other business reason or reason unknown,Yes,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.985
+9,3389604,2018,80106,8ACTE,Female,Single without Dependants,45,"Personal reasons, including ill health of self or dependents, domestic discord & other personal reasons",Yes,$0-$49999,Self Employment,$50000-$99999,$0-$49999,0,0,1
+10,3594478,2008,80109,8ACTE,Male,Couple with Dependants,33,Domestic discord or relationship breakdowns,No,$0-$49999,Unknown,$500000-$549999,$0-$49999,0,0,0.945
+11,3836442,2009,10106,1RNSW,Male,Single without Dependants,,Liabilities due to guarantees,No,$50000-$99999,Unknown,$600000-$649999,$0-$49999,0,0,0.935
+12,3538100,2010,80107,8ACTE,Male,Couple without Dependants,14,Unemployment or loss of income,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.995
+13,3420999,2011,80105,8ACTE,Male,Single without Dependants,89,Domestic discord or relationship breakdowns,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.995
+14,3278737,2012,80101,8ACTE,Male,Couple without Dependants,73,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,1
+15,3611018,2013,80109,8ACTE,Male,Couple with Dependants,55,Domestic discord or relationship breakdowns,No,$50000-$99999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,0.98
+16,3632862,2014,80106,8ACTE,Female,Couple without Dependants,59,Other causes or causes unknown,No,$0-$49999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.985
+17,3649073,2015,80101,8ACTE,Male,Couple with Dependants,39,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$50000-$99999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,0.995
+18,3027492,2016,80104,8ACTE,Male,Single without Dependants,22,Unemployment or loss of income,No,$0-$49999,Government benefits/Pensions,$100000-$149999,$300000-$349999,0,0,0.965
+19,3852575,2017,80107,8ACTE,Male,Couple without Dependants,35,Other business reason or reason unknown,Yes,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.99
+20,3999252,2018,80110,8ACTE,Male,Couple without Dependants,99,Unemployment or loss of income,No,$0-$49999,Government benefits/Pensions,$50000-$99999,$0-$49999,0,0,0.985
+21,3553437,2008,11302,1RNSW,Male,Couple without Dependants,33,"Inability to collect debts due to disputes, faulty work or bad debts",Yes,$0-$49999,Unknown,$0-$49999,$0-$49999,0,0,0.965
+22,3841382,2009,11303,1RNSW,Male,Couple without Dependants,,Unemployment or loss of income,No,$0-$49999,Unknown,$0-$49999,$0-$49999,0,0,0.955
+23,3257188,2010,80107,8ACTE,Male,Couple without Dependants,33,Failure to keep proper books of account and costing records,Yes,$50000-$99999,Business earnings,$200000-$249999,$0-$49999,0,0,0.96
+24,3257207,2010,80107,8ACTE,Female,Couple without Dependants,22,Failure to keep proper books of account and costing records,Yes,$50000-$99999,Gross Wages and Salary,$200000-$249999,$0-$49999,0,0,0.965
+25,3552466,2011,80107,8ACTE,Male,Couple with Dependants,33,Other causes or causes unknown,No,$0-$49999,Self Employment,$0-$49999,$0-$49999,0,0,0.96
+26,3222793,2012,80104,8ACTE,Male,Couple with Dependants,44,Other causes or causes unknown,No,$50000-$99999,Gross Wages and Salary,$450000-$499999,$0-$49999,Offence Referral,0,0.87
+27,3619589,2013,80104,8ACTE,Female,Couple with Dependants,35,"Economic conditions affecting industry, including competition, credit restrictions, fall in prices or increases in cost",Yes,$0-$49999,Unknown,$350000-$399999,$0-$49999,0,0,0.99
+28,3640173,2014,80107,8ACTE,Male,Single without Dependants,36,Other causes or causes unknown,No,$50000-$99999,Gross Wages and Salary,$150000-$199999,$0-$49999,0,0,0.98
+29,4119317,2015,80103,8ACTE,Female,Single without Dependants,85,Ill health or absence of health insurance,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,1
+30,3182580,2016,20503,2RVIC,Male,Single without Dependants,61,"Economic conditions affecting industry, including competition, credit restrictions, fall in prices or increases in cost",Yes,$0-$49999,Government benefits/Pensions,$100000-$149999,$0-$49999,Offence Referral,0,0.96
+31,3285173,2017,80108,8ACTE,Female,Single with Dependants,11,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$150000-$199999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.97
+32,3417447,2008,10901,1RNSW,Female,Single with Dependants,,Domestic discord or relationship breakdowns,No,$0-$49999,Unknown,$0-$49999,$0-$49999,0,0,1
+33,3605287,2009,10102,1RNSW,Female,Couple with Dependants,99,Other causes or causes unknown,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.985
+34,3420841,2010,80108,8ACTE,Male,Single without Dependants,33,"Gambling, speculation & extravagance in living",No,$0-$49999,Unknown,$100000-$149999,$0-$49999,0,0,0.97
+35,3449786,2011,80104,8ACTE,Male,Single without Dependants,43,Other causes or causes unknown,No,$0-$49999,Gross Wages and Salary,$100000-$149999,$0-$49999,0,0,0.95
+36,3598320,2012,80104,8ACTE,Male,Couple with Dependants,31,Other causes or causes unknown,No,$0-$49999,Gross Wages and Salary,$350000-$399999,$550000-$599999,0,0,0.99
+37,3619593,2013,80104,8ACTE,Male,Couple without Dependants,26,Other causes or causes unknown,No,$0-$49999,Unknown,$200000-$249999,$0-$49999,0,0,0.995
+38,3640174,2014,80101,8ACTE,Female,Single without Dependants,62,Unemployment or loss of income,No,$0-$49999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.995
+39,4119126,2015,80107,8ACTE,Female,Single without Dependants,23,Unemployment or loss of income,No,$0-$49999,Gross Wages and Salary,$150000-$199999,$0-$49999,0,0,0.995
+40,3165749,2016,80107,8ACTE,Female,Single with Dependants,42,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,1
+41,3289386,2017,80104,8ACTE,Male,Single without Dependants,31,Domestic discord or relationship breakdowns,No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,0.995
+42,3410774,2008,80105,8ACTE,Female,Single without Dependants,81,Ill health or absence of health insurance,No,$0-$49999,Unknown,$0-$49999,$0-$49999,0,0,1
+43,3558771,2009,10102,1RNSW,Male,Couple with Dependants,62,Other causes or causes unknown,No,$50000-$99999,Unknown,$0-$49999,$0-$49999,0,0,0.99
+44,3515257,2010,80105,8ACTE,Male,Single without Dependants,99,Ill health or absence of health insurance,No,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,1
+45,3464004,2011,80101,8ACTE,Male,Single without Dependants,33,"Economic conditions affecting industry, including competition, credit restrictions, fall in prices or increases in cost",Yes,$0-$49999,Government benefits/Pensions,$0-$49999,$0-$49999,0,0,0.99
+46,3448021,2012,80107,8ACTE,Male,Single without Dependants,32,Domestic discord or relationship breakdowns,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,0.995
+47,3619440,2013,80107,8ACTE,Female,Single without Dependants,31,Domestic discord or relationship breakdowns,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,1
+48,3640216,2014,80101,8ACTE,Male,Couple with Dependants,81,"Excessive use of credit facilities including losses on repossessions, high interest payments and pressure selling",No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,0.995
+49,4119152,2015,80107,8ACTE,Female,Single without Dependants,99,Unemployment or loss of income,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,1
+50,3165577,2016,80107,8ACTE,Female,Single with Dependants,59,Domestic discord or relationship breakdowns,No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$500000-$549999,0,0,1
+51,3289873,2017,80107,8ACTE,Male,Single without Dependants,31,"Economic conditions affecting industry, including competition, credit restrictions, fall in prices or increases in cost",Yes,$50000-$99999,Gross Wages and Salary,$100000-$149999,$0-$49999,0,0,0.98
+52,3606082,2008,12703,1GSYD,Male,Couple with Dependants,13,Adverse legal action,No,$0-$49999,Gross Wages and Salary,$200000-$249999,$0-$49999,0,0,0.975
+53,3839552,2009,10901,1RNSW,Female,Single without Dependants,51,Unemployment or loss of income,No,$0-$49999,Gross Wages and Salary,$0-$49999,$0-$49999,0,0,1
+54,3523376,2010,80101,8ACTE,Male,Couple without Dependants,71,Adverse legal action,No,$0-$49999,Unknown,$100000-$149999,$0-$49999,0,0,0.965
+55,3593958,2012,80104,8ACTE,Male,Couple with Dependants,14,Other causes or causes unknown,No,$100000-$149999,Gross Wages and Salary,$750000-$799999,$0-$49999,0,0,0.97
+56,3582490,2012,80104,8ACTE,Female,Couple with Dependants,22,Other causes or causes unknown,No,$50000-$99999,Gross Wages and Salary,$750000-$799999,$0-$49999,0,0,0.975
+57,3619545,2013,80108,8ACTE,Male,Couple without Dependants,32,Excessive drawings including failure to provide for taxation,Yes,$50000-$99999,Self Employment,$500000-$549999,$0-$49999,0,0,0.955
+58,3640527,2014,80101,8ACTE,Female,Single without Dependants,14,Domestic discord or relationship breakdowns,No,$50000-$99999,Gross Wages and Salary,$50000-$99999,$0-$49999,0,0,1

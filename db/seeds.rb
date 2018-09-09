@@ -26,9 +26,9 @@ require 'csv'
 #   puts "#{row['Unique ID']} - #{row['Calendar Year of Insolvency']} - #{row['SA3 of Debtor']}"
 # end
 
-csv_text = File.read(Rails.root.join('db', 'testing.csv'))
+csv_text = File.read(Rails.root.join('db', 'testing_two.csv'))
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
-  @debtor = Debtor.new(unique_id: row['Unique ID'], year: row['Calendar Year of Insolvency'], area: row['SA3 of Debtor'], sex: row['Sex of Debtor'], family: row['Family Situation'], occupation: row['Debtor Occupation Code (ANZSCO)'], cause: row['Main Cause of Insolvency'], income: row['Debtor Income'], income_source: row['Primary Income Source'], unsecured_debts: row['Unsecured Debts'], value_of_assets: row['Value of Assets'], non_compliance_type: row['Non-Compliance Type'], business: row['Business Related Insolvency'], num_instances: row['Number of Instances'])
+  @debtor = Debtor.new(unique_id: row['unique_id'], year: row['year'], area: row['SA3_Code'], sex: row['Sex'], family: row['family_situation'], occupation: row['occupation_code'], cause: row['cause'], income: row['income'], income_source: row['primary_income'], unsecured_debts: row['unsecured_debts'], value_of_assets: row['assets_value'], non_compliance_type: row['noncompliance_type'], business: row['business_related'], num_instances: row['num_instances'], probability: row['probability'], prediction: row['prediction'])
   @debtor.save!
 end

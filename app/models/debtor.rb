@@ -112,9 +112,20 @@ DEBTS = {
 #   Giving really low numbers
 # end
 
+# def calculate_score
+#   @score = rand(150..900)
+#   self.update(score: @score)
+# end
+
 def calculate_score
-  @score = rand(150..900)
-  self.update(score: @score)
+  @probability = self.probability.to_f
+  @prediction = self.prediction.to_f
+  if (@prediction == 0) || (@prediction == 0.0)
+    @score = 1.0 - @probability
+  else
+    @score = @probability
+  end
+  self.update(scoref: @score)
 end
 
 

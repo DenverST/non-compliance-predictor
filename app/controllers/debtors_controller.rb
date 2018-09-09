@@ -46,7 +46,7 @@ end
 private
 
   def debtor_params
-    params.require(:debtor).permit(:unique_id, :year, :area, :sex, :family, :occupation, :cause, :income, :unsecured_debts, :value_of_assets, :non_compliance_type, :business, :num_instances)
+    params.require(:debtor).permit(:unique_id, :year, :area, :sex, :family, :occupation, :cause, :income, :unsecured_debts, :value_of_assets, :non_compliance_type, :business, :num_instances, :prediction, :probability)
   end
 
 end
