@@ -1,34 +1,33 @@
 
-<h1>Enter New Insolvent Individual</h1>
+<div class="header">
+  <h1>Enter New Insolvent Individual</h1>
+</div>
 
-<div class="big-div-wrap">
-  <div class="form-wrap">
-    <div class="from">
-      <%= simple_form_for(@debtor) do |f| %>
-      <% if @debtor.errors.any? %>
-        <div class="errors-container">
-          <ul>
-            <% @debtor.errors.full_messages.each do |message| %>
-              <li><%= message %></li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
-        <%= f.input :unique_id %>
-        <%= f.input :year %>
-        <%= f.input :area %>
-        <%= f.input :sex %>
-        <%= f.input :family %>
-        <%= f.input :occupation %>
-        <%= f.input :cause %>
-        <%= f.input :income %>
-        <%= f.input :income_source %>
-        <%= f.input :unsecured_debts %>
-        <%= f.input :value_of_assets %>
-        <%= f.input :non_compliance_type %>
-        <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
-      <% end %>
+<div class="from-container">
+  <div class="row">
+    <div class="form-wrap-grey">
+        <%= simple_form_for(@debtor) do |f| %>
+          <%= f.input :unique_id, label:false %>
+          <%= f.input :year, label:false %>
+          <%= f.input :area, label:false %>
+          <%= f.input :sex, label:false %>
+          <%= f.input :family, label:false  %>
+          <%= f.input :occupation, label:false  %>
+          <%= f.input :cause, label:false  %>
+          <%= f.input :income, label:false  %>
+          <%= f.input :income_source, label:false  %>
+          <%= f.input :unsecured_debts, label:false  %>
+          <%= f.input :value_of_assets, label:false  %>
+          <%= f.input :non_compliance_type, label:false  %>
+          <%= f.input :business, label:false  %>
+          <%= f.input :num_instances, label:false  %>
     </div>
+    <div class="row">
+      <div class="form-button">
+        <%= f.submit "Calculate Risk", class: "btn btn-primary" %>
+      </div>
+    </div>
+      <% end %>
   </div>
 </div>
 
