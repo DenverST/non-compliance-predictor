@@ -1,23 +1,30 @@
-<div class="banner">
-  <div class="banner-content">
-    <h1>Insolvit&trade; is the data-driven solution to non-compliance in bankruptcy</h1>
-    <p>Compare solvency areas and search for scores in seconds</p>
+<div class="home-css">
+  <div class="banner">
+    <div class="banner-content">
+      <h1>Insolvit&trade; is the data-driven solution to non-compliance in bankruptcy</h1>
+      <p>Compare solvency areas and search for scores in seconds</p>
+      <a class="btn btn-success btn-lg banner-btn">Dashboard</a>
+
+    </div>
 
   </div>
-</div>
-<div class="container">
-  <div class="wrapper">
+
+
+<div class="wrapper">
+  <div class="left">
     <div class="feature">
-      <a class="btn btn-success btn-lg home-btn">Dashboard</a>
-      <p class="description">An overview of compliance in seconds</p>
-    </div>
-    <div class="feature">
-      <a class="btn btn-success btn-lg home-btn">Risk Prediction</a>
-      <p class="description">Predict based upon ML non-compliance</p>
-    </div>
-    <div class="feature">
-    <a class="btn btn-success btn-lg home-btn">Solvency Map</a>
-    <p class="description">View solvency heatzones</p>
+      <%= image_tag "australia-map.png", class: "profile-map"%>
+      <a class="home-btn map-btn">Compliance Map</a>
+
     </div>
   </div>
+
+  <div class="right">
+    <div class="feature">
+      <%= image_tag "home_progress.png", class:"profile-progress" %>
+      <a class="home-btn progress-btn">Compliance Score</a>
+    </div>
+  </div>
+</div>
+</div>
 </div>
